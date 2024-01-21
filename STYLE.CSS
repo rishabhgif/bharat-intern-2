@@ -1,0 +1,171 @@
+/* style.css */
+
+body {
+    background-color: rgba(58, 60, 17, 0.314);
+    font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: #f1f1f1;
+   padding: 20px;
+   text-align: right;
+}
+
+nav ul {
+   display: flex;
+   justify-content: left;
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 15px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #000000;
+}
+
+nav ul li a:hover{
+ color: rgb(207, 87, 103);
+}
+
+.left{
+   font-size: 2rem;
+ }
+
+#about {
+   padding: 50px;
+   text-align: center;
+}
+.buttons{
+   padding: 10px
+ }
+
+.btn{
+   font-size: 15px;
+   background:transparent;
+   color: white;
+   border: solid white;
+   border-radius: 6px;
+   padding: 5px;
+   margin: 10px;
+   cursor: pointer;
+   font-size: 1rem;
+ }
+
+ .btn:hover{
+   color: black;
+ }
+
+  .btn2{
+   background:transparent;
+   color: white;
+   border: solid white;
+   border-radius: 6px;
+   padding: 5px;
+   margin: 10px;
+   font-size: 1rem;
+ }
+ 
+  .btn2:hover{
+   color: black;
+ }
+
+
+#skills {
+   padding: 50px;
+   text-align: center;
+}
+
+.Skills {
+   display: inline-block;
+   margin: 20px;
+   padding: 20px;
+   background-color: #f1f1f1;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.icon1{
+   width: 25px;
+   position: relative;
+   left: 2px;
+   top: 8px;
+ }
+
+#projects {
+   padding: 50px;
+   text-align: center;
+}
+
+.project-container {
+   display: inline-block;
+   margin: 20px;
+   padding: 20px;
+   background-color: #f1f1f1;
+   border-radius: 5px;
+   text-align: center;
+}
+.icon2{
+   width: 120px;
+   position: relative;
+   left: 2px;
+   top: 8px;
+ }
+
+ .icon3{
+   width: 250px;
+   position: relative;
+   left: 2px;
+   top: 8px;
+ }
+
+ .icon4{
+   width: 120px;
+   position: relative;
+   left: 2px;
+   top: 8px;
+ }
+
+ 
+#contact {
+   padding: 50px;
+   text-align: center;
+   .icon2{
+      width: 100px;
+   }
+}
+
+form {
+   margin: 20px;
+}
+
+form label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+form input, form textarea {
+   width: 50%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+
+form input[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   cursor: pointer;
+}
+
+footer {
+   background-color: #f1f1f1;
+   padding: 20px;
+   text-align: center;
+}
